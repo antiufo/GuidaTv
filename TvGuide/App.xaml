@@ -1,0 +1,8 @@
+﻿<Application x:Class="antiufo.TvGuide.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="Code\MainWindow.xaml" Exit="Application_Exit">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

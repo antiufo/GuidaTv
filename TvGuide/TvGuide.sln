@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvGuide", "TvGuide.csproj", "{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoviesDatabaseDump", "..\MyMoviesDatabaseDump\MyMoviesDatabaseDump.csproj", "{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateChannelsList", "..\UpdateChannelsList\UpdateChannelsList.csproj", "{11035CAE-8F93-48AA-A31B-D1F27EA82547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		QuickTextParserForSongr|Any CPU = QuickTextParserForSongr|Any CPU
+		QuickTextParserForSongr|Mixed Platforms = QuickTextParserForSongr|Mixed Platforms
+		QuickTextParserForSongr|x86 = QuickTextParserForSongr|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.Debug|x86.ActiveCfg = Debug|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.Debug|x86.Build.0 = Debug|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.QuickTextParserForSongr|Any CPU.ActiveCfg = Release|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.QuickTextParserForSongr|Mixed Platforms.ActiveCfg = Release|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.QuickTextParserForSongr|Mixed Platforms.Build.0 = Release|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.QuickTextParserForSongr|x86.ActiveCfg = Release|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.QuickTextParserForSongr|x86.Build.0 = Release|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.Release|Any CPU.ActiveCfg = Release|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.Release|Mixed Platforms.Build.0 = Release|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.Release|x86.ActiveCfg = Release|x86
+		{8EA189AB-F9F7-440E-A607-E6E4DD1D6532}.Release|x86.Build.0 = Release|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.Debug|x86.ActiveCfg = Debug|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.Debug|x86.Build.0 = Debug|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.QuickTextParserForSongr|Any CPU.ActiveCfg = Release|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.QuickTextParserForSongr|Mixed Platforms.ActiveCfg = Release|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.QuickTextParserForSongr|Mixed Platforms.Build.0 = Release|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.QuickTextParserForSongr|x86.ActiveCfg = Release|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.QuickTextParserForSongr|x86.Build.0 = Release|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.Release|Any CPU.ActiveCfg = Release|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.Release|x86.ActiveCfg = Release|x86
+		{A1947FBF-2F8C-4ACF-8301-4A4BFD33FEAA}.Release|x86.Build.0 = Release|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.Debug|x86.ActiveCfg = Debug|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.Debug|x86.Build.0 = Debug|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.QuickTextParserForSongr|Any CPU.ActiveCfg = Release|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.QuickTextParserForSongr|Mixed Platforms.ActiveCfg = Release|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.QuickTextParserForSongr|Mixed Platforms.Build.0 = Release|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.QuickTextParserForSongr|x86.ActiveCfg = Release|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.QuickTextParserForSongr|x86.Build.0 = Release|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.Release|Any CPU.ActiveCfg = Release|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.Release|Mixed Platforms.Build.0 = Release|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.Release|x86.ActiveCfg = Release|x86
+		{11035CAE-8F93-48AA-A31B-D1F27EA82547}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="animegold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\animegold.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arturo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\arturo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="axn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\axn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="axnscifi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\axnscifi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbcknowledge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\bbcknowledge.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bbcworld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\bbcworld.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\boing.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="canale5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\canale5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoonito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\cartoonito.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartoonnetwork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\cartoonnetwork.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cielo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\cielo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comedycentral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\comedycentral.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cult" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\cult.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dahliaeros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\dahliaeros.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dahliasport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\dahliasport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dahliasport2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\dahliasport2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dahliaxtreme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\dahliaxtreme.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deejaytv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\deejaytv.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="discoverychannel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\discoverychannel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="discoveryworld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\discoveryworld.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disneychannel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\disneychannel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="divauniversal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\divauniversal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dmax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\dmax.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eurosport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\eurosport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fantasy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\fantasy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\fox.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxcrime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\foxcrime.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxlife" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\foxlife.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foxretro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\foxretro.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="france24fr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\france24fr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="france24uk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\france24uk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frisbee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\frisbee.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\fx.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hallmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\hallmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\hiro.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="historychannel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\historychannel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="horrorchannel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\horrorchannel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\iris.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italia1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\italia1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\italia2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jimmy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\jimmy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\joi.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="k2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\k2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="la5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\la5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="la7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\la7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="la7d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\la7d.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ladychannel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\ladychannel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\lei.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="man_ga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\man-ga.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mediasetextra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\mediasetextra.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mgmchannel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\mgmchannel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mtv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\mtv.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mtvmusic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\mtvmusic.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\mya.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nationalgeographicchannel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\nationalgeographicchannel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nichelodeon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\nichelodeon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nuvolari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\nuvolari.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="odeon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\odeon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playhousedisney" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\playhousedisney.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pokeritalia24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\pokeritalia24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="premiumcalcio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\premiumcalcio.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="premiumcinema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\premiumcinema.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="premiumcinemacomedy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\premiumcinemacomedy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="premiumcinemaemotion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\premiumcinemaemotion.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="premiumcinemaenergy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\premiumcinemaenergy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="premiumcrime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\premiumcrime.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qvc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\qvc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rai4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\rai4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rai5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\rai5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raidue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\raidue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raiextra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\raiextra.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raigulp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\raigulp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raimovie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\raimovie.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rainews" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\rainews.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raipremium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\raipremium.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raiscuola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\raiscuola.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raisport1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\raisport1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raistoria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\raistoria.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raitre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\raitre.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raiuno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\raiuno.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="raiyoyo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\raiyoyo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="realtime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\realtime.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rete4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\rete4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skycinema1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skycinema1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skycinema24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skycinema24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skycinemaclassics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skycinemaclassics.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skycinemacomedy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skycinemacomedy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skycinemafamily" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skycinemafamily.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skycinemahits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skycinemahits.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skycinemaitalia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skycinemaitalia.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skycinemamania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skycinemamania.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skycinemamax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skycinemamax.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skycinemapassion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skycinemapassion.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skyprimafila" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skyprimafila.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skysport1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skysport1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skysport2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skysport2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skysport3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skysport3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skysportextra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skysportextra.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skysupercalcio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skysupercalcio.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skyuno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\skyuno.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sportitalia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\sportitalia.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sportitalia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\sportitalia2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sportitalia24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\sportitalia24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\steel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="studiouniversal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\studiouniversal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supertennis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\supertennis.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tmc2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\tmc2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tv2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\tv2000.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virginradiotv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\virginradiotv.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\channelicons\7gold.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ChannelIcons\focus.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
