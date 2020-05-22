@@ -6,6 +6,10 @@ Per molti film è inoltre disponibile la trama ed il trailer, oltre ovviamente a
 
 Questo codice non è più mantenuto. In particolare, il connettore per MyMovies.it non è più funzionante (a maggio 2020).
 
+![Screenshot 1](https://raw.githubusercontent.com/antiufo/GuidaTv/master/Screenshots/guidatv-dettagli.jpg)
+
+![Screenshot 2](https://raw.githubusercontent.com/antiufo/GuidaTv/master/Screenshots/guidatv-preferiti.jpg)
+
 ## Contribuire al codice
 Se qualcuno fosse interessato a rimettere l'applicazione in sesto, alcune note:
 * Il connettore per MyMovies va aggiustato per funzionare sull'attuale layout del sito.
